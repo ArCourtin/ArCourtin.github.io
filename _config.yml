@@ -160,9 +160,9 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
   - files
 exclude:
+  - _pages
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -219,16 +219,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
