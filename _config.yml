@@ -161,8 +161,8 @@ analytics:
 include:
   - .htaccess
   - files
-exclude:
   - _pages
+exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
